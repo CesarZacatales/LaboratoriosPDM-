@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="medium_gap">8dp</dimen>
+    <dimen name="big_gap">32dp</dimen>
+    <dimen name="max_gap">40sp</dimen>
+    <dimen name="image_gap">150dp</dimen>
+    <dimen name="token_gap">20sp</dimen>
+</resources>
