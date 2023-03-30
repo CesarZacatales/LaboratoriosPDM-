@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Laboratorio03Zac</string>
+    <string name="count_value_text">0</string>
+    <string name="title_value_text">Cantidad de dinero</string>
+    <string name="five_ctvs_value_text">0.05</string>
+    <string name="money_token_text">$</string>
+    <string name="ten_ctvs_value_text">0.10</string>
+    <string name="quarter_value_text">0.25</string>
+    <string name="oneDollar_value_text">1</string>
+</resources>
