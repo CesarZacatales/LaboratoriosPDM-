@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="@dimen/minGap"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/maxGap"
+        android:layout_marginTop="@dimen/marginTop2Gap"
+        android:layout_marginEnd="@dimen/maxGap"
+        android:hint="@string/nameHintText"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/main_color"
+        app:hintTextColor="@color/main_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/NameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="@dimen/minGap"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/maxGap"
+        android:layout_marginTop="@dimen/inputGap"
+        android:layout_marginEnd="@dimen/maxGap"
+        android:hint="@string/emailHintText"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/main_color"
+        app:hintTextColor="@color/main_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/EmailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/textInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="@dimen/minGap"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/maxGap"
+        android:layout_marginTop="@dimen/marginTopGap"
+        android:layout_marginEnd="@dimen/maxGap"
+        android:hint="@string/phoneHintText"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/main_color"
+        app:hintTextColor="@color/main_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            app:boxStrokeErrorColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="@dimen/minGap"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/maxGap"
+        android:layout_marginTop="@dimen/mayorGap"
+        android:layout_marginEnd="@dimen/maxGap"
+        android:text="@string/TitleMainActivity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="@dimen/titleGap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/buttonGap"
+        android:backgroundTint="@color/button_color"
+        android:text="@string/saveButtonText"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

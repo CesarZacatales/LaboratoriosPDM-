@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Laboratorio04z</string>
+    <string name="TitleMainActivity">Rellena la siguiente información</string>
+    <string name="saveButtonText">GUARDAR</string>
+    <string name="phoneHintText">Número de teléfono</string>
+    <string name="emailHintText">Correo electrónico</string>
+    <string name="nameHintText">Nombre</string>
+    <string name="nameText">Nombre:</string>
+    <string name="emailText">Correo electronico:</string>
+    <string name="phoneText">Telefono:</string>
+</resources>

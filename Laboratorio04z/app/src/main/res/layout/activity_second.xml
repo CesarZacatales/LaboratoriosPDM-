@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/titleTextView2"
+        android:layout_width="@dimen/minGap"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/maxGap"
+        android:layout_marginTop="@dimen/layoutMaxGap"
+        android:layout_marginEnd="@dimen/maxGap"
+        android:text="Confirma tu información"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="@dimen/titleGap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nombreTextView"
+        android:layout_width="@dimen/minGap"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/mediumGap"
+        android:layout_marginTop="@dimen/max2Gap"
+        android:layout_marginEnd="@dimen/maxGap"
+        android:textSize="@dimen/textGap"
+        app:layout_constraintBottom_toBottomOf="@+id/nombreLabelView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nombreLabelView"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView2" />
+
+    <TextView
+        android:id="@+id/correoTextview"
+        android:layout_width="@dimen/minGap"
+        android:layout_height="@dimen/medium2Gap"
+        android:layout_marginStart="@dimen/mediumGap"
+        android:layout_marginTop="@dimen/max2Gap"
+        android:layout_marginEnd="@dimen/maxGap"
+        android:textSize="@dimen/textGap"
+        app:layout_constraintBottom_toBottomOf="@+id/correoLabelView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/correoLabelView"
+        app:layout_constraintTop_toBottomOf="@+id/nombreTextView" />
+
+    <TextView
+        android:id="@+id/telefonoTextView"
+        android:layout_width="@dimen/minGap"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/mediumGap"
+        android:layout_marginTop="@dimen/meduim3Gap"
+        android:layout_marginEnd="@dimen/maxGap"
+        android:textSize="@dimen/textGap"
+        app:layout_constraintBottom_toBottomOf="@+id/telefonoLabelVIew"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/telefonoLabelVIew"
+        app:layout_constraintTop_toTopOf="@+id/telefonoLabelVIew"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/meduim3Gap"
+        android:text="COMPARTIR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telefonoTextView"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/nombreLabelView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/maxGap"
+        android:layout_marginTop="@dimen/max2Gap"
+        android:text="@string/nameText"
+        android:textSize="@dimen/textGap"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView2" />
+
+    <TextView
+        android:id="@+id/correoLabelView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/label2Gap"
+        android:layout_marginTop="@dimen/labelGap"
+        android:text="@string/emailText"
+        android:textSize="@dimen/textGap"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombreLabelView" />
+
+    <TextView
+        android:id="@+id/telefonoLabelVIew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/GAP"
+        android:layout_marginTop="@dimen/max2Gap"
+        android:text="@string/phoneText"
+        android:textSize="@dimen/textGap"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correoLabelView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

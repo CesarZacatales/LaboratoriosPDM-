@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleGap">42sp</dimen>
+    <dimen name="buttonGap">16dp</dimen>
+    <dimen name="textGap">15sp</dimen>
+    <dimen name="labelGap">32dp</dimen>
+    <dimen name="label2Gap">16dp</dimen>
+    <dimen name="inputGap">325dp</dimen>
+    <dimen name="minGap">0dp</dimen>
+    <dimen name="mediumGap">8dp</dimen>
+    <dimen name="maxGap">16dp</dimen>
+    <dimen name="mayorGap">124dp</dimen>
+    <dimen name="marginTopGap">400dp</dimen>
+    <dimen name="marginTop2Gap">250dp</dimen>
+    <dimen name="max2Gap">32dp</dimen>
+    <dimen name="layoutMaxGap">208dp</dimen>
+    <dimen name="medium2Gap">20dp</dimen>
+    <dimen name="meduim3Gap">24dp</dimen>
+    <dimen name="GAP">12dp</dimen>
+</resources>
