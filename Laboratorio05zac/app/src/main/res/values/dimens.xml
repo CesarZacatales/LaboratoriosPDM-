@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="basicGap">0dp</dimen>
+    <dimen name="mediumGap">8dp</dimen>
+    <dimen name="paddigGap">16dp</dimen>
+    <dimen name="cardHeightGap">150dp</dimen>
+    <dimen name="cornerRadiusGap">10sp</dimen>
+    <dimen name="titleTextGap">50sp</dimen>
+    <dimen name="GapLayout">32dp</dimen>
+    <dimen name="sizeInfoGap">20sp</dimen>
+    <dimen name="imageGap">300dp</dimen>
+</resources>
