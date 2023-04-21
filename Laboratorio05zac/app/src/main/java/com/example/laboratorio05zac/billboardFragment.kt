@@ -15,6 +15,7 @@ class billboardFragment : Fragment() {
 
     private lateinit var buttonNewMovie: FloatingActionButton
     private lateinit var detailsMovie: CardView
+    private lateinit var detailsMovieTwo: CardView
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -37,5 +38,6 @@ class billboardFragment : Fragment() {
     private fun bind(){
         buttonNewMovie = view?.findViewById(R.id.action_to_create_movie) as FloatingActionButton
         detailsMovie = view?.findViewById(R.id.firstCard) as CardView
+        detailsMovieTwo = view?.findViewById(R.id.SecondCard) as CardView
     }
 }

@@ -95,6 +95,60 @@
 
         </androidx.cardview.widget.CardView>
 
+        <androidx.cardview.widget.CardView
+            android:id="@+id/SecondCard"
+            android:layout_width="@dimen/basicGap"
+            android:layout_height="@dimen/cardHeightGap"
+            android:layout_marginStart="@dimen/paddigGap"
+            android:layout_marginEnd="@dimen/paddigGap"
+            android:backgroundTint="@color/cardLayout"
+            app:cardCornerRadius="@dimen/cornerRadiusGap"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/firstCard"
+            app:layout_constraintVertical_bias="0.055">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="@dimen/cardHeightGap"
+                    android:layout_height="@dimen/cardHeightGap"
+                    android:src="@drawable/harry_potter"
+                    android:paddingLeft="@dimen/paddigGap"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/GapLayout">
+
+                    <TextView
+                        android:layout_width="225dp"
+                        android:layout_height="70dp"
+                        android:text="@string/secondMovieName"
+                        android:textSize="@dimen/sizeInfoGap"
+                        android:textColor="@color/white"
+                        android:paddingLeft="@dimen/paddigGap"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/calificationSecondMovie"
+                        android:textSize="@dimen/sizeInfoGap"
+                        android:textColor="@color/calification"
+                        android:paddingLeft="@dimen/paddigGap"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
