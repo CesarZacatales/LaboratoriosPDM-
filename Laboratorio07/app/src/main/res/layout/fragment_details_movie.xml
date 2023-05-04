@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".ui.movie.detailsMovieFragment">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/backgroudLayout">
+
+            <ImageView
+                android:id="@+id/firsImage"
+                android:layout_width="@dimen/imageGap"
+                android:layout_height="@dimen/imageGap"
+                android:layout_marginTop="@dimen/paddigGap"
+                android:paddingTop="@dimen/paddigGap"
+                android:src="@drawable/star_wars"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/paddigGap"
+                android:text="@string/firstMovieName"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sizeInfoGap"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/firsImage" />
+
+            <TextView
+                android:id="@+id/categoryMovie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/GapLayout"
+                android:layout_marginTop="@dimen/paddigGap"
+                android:text="ciencia ficcion"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sizeInfoGap"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/calificationFirstMovie"
+                android:textColor="@color/calification"
+                android:textSize="@dimen/sizeInfoGap"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/categoryMovie"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                android:layout_marginTop="@dimen/paddigGap"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/GapLayout"
+                android:padding="@dimen/paddigGap"
+                android:paddingLeft="@dimen/paddigGap"
+                android:text="@string/infoFirstMovie"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/categoryMovie" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</layout>
