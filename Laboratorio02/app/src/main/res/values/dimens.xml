@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_layout">200dp</dimen>
+    <dimen name="width_layout">400dp</dimen>
+    <dimen name="medium_gap">8dp</dimen>
+    <dimen name="max_gap">16dp</dimen>
+    <dimen name="title_size">35sp</dimen>
+    <dimen name="hint_text_size">75sp</dimen>
+    <dimen name="width_size">230dp</dimen>
+    <dimen name="textViewSize">50sp</dimen>
+    <dimen name="marginTopText">46dp</dimen>
+    <dimen name="cardTitleSize">80dp</dimen>
+    <dimen name="sizeBtnText">30dp</dimen>
+    <dimen name="textSizeResult">60dp</dimen>
+    <dimen name="textSizeResult2">30dp</dimen>
+    <dimen name="textSizeResult3">25sp</dimen>
+</resources>

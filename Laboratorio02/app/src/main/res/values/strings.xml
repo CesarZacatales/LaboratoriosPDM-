@@ -3,4 +3,8 @@
     <string name="action_send">Send</string>
     <string name="greeting_text">hello, %s</string>
     <string name="text_name">name</string>
+    <string name="hint_size">70</string>
+    <string name="hint_size2">180</string>
+
+
 </resources>

@@ -7,8 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="card_color">#3F4FA5</color>
-    <color name="button_color">#E91E63</color>
-    <color name="background">#111A4A</color>
-
+   
+    <color name="layout_background">#101336</color>
+    <color name="card_background">#26294c</color>
+    <color name="text_hint">#767b8e</color>
+    <color name="btn_background">#FF0062</color>
+    <color name="under_weight">#37BEFD</color>
+    <color name="normal_weight">#10A308</color>
+    <color name="over_weight">#FF9800</color>
+    <color name="obese">#FF5722</color>
 </resources>
