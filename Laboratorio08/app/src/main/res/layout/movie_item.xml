@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/movieItemCardView"
+            android:layout_width="@dimen/basicGap"
+            android:layout_height="@dimen/cardHeightGap"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/cardLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="@dimen/paddigGap"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/no_image_placeholder_svg" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/GapLayout"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/title_text_view"
+                        android:layout_width="225dp"
+                        android:layout_height="70dp"
+                        android:paddingLeft="@dimen/paddigGap"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sizeInfoGap" />
+
+                    <TextView
+                        android:id="@+id/qualification_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/paddigGap"
+                        android:textColor="@color/calification"
+                        android:textSize="@dimen/sizeInfoGap" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

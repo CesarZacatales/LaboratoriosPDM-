@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Laboratorio05zac</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="titleText">Billboard</string>
+    <string name="firstMovieName">Star Wars episodio 3: La venganza de los Sith</string>
+    <string name="secondMovieName">Harry Potter y la pieda filosofal</string>
+    <string name="calificationFirstMovie">9.8</string>
+    <string name="calificationSecondMovie">9.5</string>
+    <string name="infoFirstMovie">Star Wars: Episodio III La Venganza de los Sith es la sexta película de Star Wars en ser producida y el tercer y último episodio de la trilogía de precuelas. Fue estrenada en los cines el jueves 19 de mayo de 2005 (el día exacto en que el primer episodio de la trilogía de precuelas de Star Wars: Episodio I La Amenaza Fantasma fue lanzada en 1999), y se estrenó (fuera de competición) en el Festival de Cannes el 15 de mayo de 2005.</string>
+    <string name="infoSecondMovie">Harry Potter es un huérfano que vive con sus desagradables tíos, los Dursley, y su repelente primo Dudley. Se acerca su undécimo cumpleaños y tiene pocas esperanzas de recibir algún regalo, ya que nunca nadie se acuerda de él. Sin embargo, pocos días antes de su cumpleaños, una serie de misteriosas cartas dirigidas a él y escritas con una estridente tinta verde rompen la monotonía de su vida: Harry es un mago y sus padres también lo eran.</string>
+    <string name="category">category</string>
+    <string name="name">name</string>
+    <string name="descripcion">descripcion</string>
+    <string name="calification">Calification</string>
+    <string name="bottonSendText">Submit</string>
+    <string name="titleTextNewMovie">New movie</string>
+</resources>
