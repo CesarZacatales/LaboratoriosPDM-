@@ -11,4 +11,6 @@
     <dimen name="imageGap">300dp</dimen>
     <dimen name="marginBottonGap">30dp</dimen>
     <dimen name="marginTopTextField">32dp</dimen>
+    <dimen name="widthImage">100dp</dimen>
+    <dimen name="heigthImage">80dp</dimen>
 </resources>

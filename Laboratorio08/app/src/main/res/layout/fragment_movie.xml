@@ -19,9 +19,9 @@
 
             <ImageView
                 android:id="@+id/firsImage"
-                android:layout_width="@dimen/imageGap"
-                android:layout_height="@dimen/imageGap"
-                android:layout_marginTop="@dimen/paddigGap"
+                android:layout_width="@dimen/cardHeightGap"
+                android:layout_height="@dimen/cardHeightGap"
+                android:layout_marginTop="@dimen/GapLayout"
                 android:paddingTop="@dimen/paddigGap"
                 android:src="@drawable/no_image_placeholder_svg"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -32,6 +32,7 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
                 android:paddingLeft="@dimen/paddigGap"
                 android:text="@={viewmodel.name}"
                 android:textColor="@color/white"
@@ -45,7 +46,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/GapLayout"
-                android:layout_marginTop="@dimen/paddigGap"
+                android:layout_marginTop="32dp"
                 android:text="@={viewmodel.category}"
                 android:textColor="@color/white"
                 android:textSize="@dimen/sizeInfoGap"
@@ -55,13 +56,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
                 android:text="@={viewmodel.qualification}"
                 android:textColor="@color/calification"
                 android:textSize="@dimen/sizeInfoGap"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/categoryMovie"
-                app:layout_constraintTop_toBottomOf="@+id/textView"
-                android:layout_marginTop="@dimen/paddigGap"/>
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
 
             <TextView
                 android:layout_width="wrap_content"

@@ -10,9 +10,10 @@
             android:id="@+id/movieItemCardView"
             android:layout_width="@dimen/basicGap"
             android:layout_height="@dimen/cardHeightGap"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="16dp"
+            app:cardCornerRadius="@dimen/paddigGap"
+            android:layout_marginStart="@dimen/paddigGap"
+            android:layout_marginTop="@dimen/mediumGap"
+            android:layout_marginEnd="@dimen/paddigGap"
             android:backgroundTint="@color/cardLayout"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -23,8 +24,8 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="@dimen/widthImage"
+                    android:layout_height="@dimen/heigthImage"
                     android:paddingLeft="@dimen/paddigGap"
                     android:layout_gravity="center_vertical"
                     android:src="@drawable/no_image_placeholder_svg" />
