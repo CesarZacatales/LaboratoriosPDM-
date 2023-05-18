@@ -6,5 +6,5 @@ class MovieRepository(private val movies: MutableList<MovieModel>) {
 
     fun getMovies()= movies
 
-    fun addMovies(movie: MovieModel) = movies.add(movie)
+    fun addMovies(movie: MovieModel) = movies.add(0,movie)
 }

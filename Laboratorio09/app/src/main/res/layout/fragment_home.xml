@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/main_thread_button"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/main_thread"
+        app:layout_constraintBottom_toTopOf="@+id/coroutines_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/coroutines_button"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/coroutines"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/main_thread_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/main_thread_button"
+        app:layout_constraintTop_toBottomOf="@+id/main_thread_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

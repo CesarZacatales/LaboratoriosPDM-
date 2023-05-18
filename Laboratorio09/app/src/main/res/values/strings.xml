@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CorutinesDemo</string>
+    <string name="count">Count</string>
+    <string name="download">Download</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_thread">Main Thread</string>
+    <string name="coroutines">Coroutines</string>
+    <string name="you_are_in_the_main_thread">You are in the main thread.</string>
+    <string name="you_are_using_coroutines">You are using coroutines.</string>
+</resources>
