@@ -1,5 +1,6 @@
 package com.example.laboratorio05zac.ui.movie
 
+import android.text.Editable.Factory
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.APPLICATION_KEY

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewmodel"
+            type="com.example.laboratorio05.ui.casting.viewmodel.CastingViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundLayout"
+        tools:context=".ui.casting.newcasting.NewCastingFragment">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/new_casting"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/mediumGap"
+            android:textSize="@dimen/extraLargeTextGap"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/movies_spinner"
+            style="@style/CustomSpinnerStyle"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:contentDescription="movies spinner"
+            android:minHeight="50dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <Spinner
+            android:id="@+id/actors_spinner"
+            style="@style/CustomSpinnerStyle"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mediumGap"
+            android:contentDescription="actors spinner"
+            android:minHeight="50dp"
+            app:layout_constraintEnd_toEndOf="@+id/movies_spinner"
+            app:layout_constraintStart_toStartOf="@+id/movies_spinner"
+            app:layout_constraintTop_toBottomOf="@+id/movies_spinner" />
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:onClick="@{() -> viewmodel.createCasting()}"
+            android:backgroundTint="@color/buttonColor"
+            android:text="@string/submitButtonText"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/actors_spinner"
+            app:layout_constraintStart_toStartOf="@+id/actors_spinner"
+            app:layout_constraintTop_toBottomOf="@+id/actors_spinner" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -12,4 +12,10 @@
     <color name="cardLayout">#543864</color>
     <color name="calification">#FFBD69</color>
     <color name="buttonColor">#FF6363</color>
+
+    <color name="cardBackground">#FFD700</color>
+    <color name="textColor">#FF000000</color>
+    <color name="Background">#F0E68C</color>
+    <color name="btnColor">#BDB76B</color>
+    <color name="ratingColor">#FF0000</color>
 </resources>
